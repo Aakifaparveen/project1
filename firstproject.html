@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namix</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+
+        body {
+            background-color: rgb(184, 218, 245);
+        }
+
+        .wrap {
+            display: inline-block;
+            margin: 1% 12%;
+        }
+        form {
+            padding: 20px;
+        }
+        .container1 {
+            background-color: white;
+            border-top-left-radius: 19px;
+            border-bottom-left-radius: 19px;
+            padding: 15px;
+            float: left;
+
+        }
+
+        .container2 img {
+            border-top-right-radius: 19px;
+            border-bottom-right-radius: 19px;
+            width: 90%;
+
+        }
+
+        .input-box input {
+            width: 90%;
+            height: 50%;
+            background: rgb(232, 249, 255);
+            padding-bottom: 15px;
+            border: none;
+            padding: 8px;
+            color: rgb(109, 105, 105);
+            border-radius: 7px;
+
+        }
+        .input-box i{
+            float: right;
+            position: relative;
+            bottom: 22px;
+            left: -20px;
+            
+        }
+
+        .gender input {
+            width: 42%;
+            height: 50%;
+            background: rgb(232, 249, 255);
+            border: none;
+            color: rgb(109, 105, 105);
+            padding: 8px;
+            border-radius: 7px;
+
+
+        } 
+
+        .account button {
+            width: 95%;
+            height: 70%;
+            border-radius: 7px;
+            background: rgb(65, 194, 48);
+            padding-bottom: 15px;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+            padding: 8px;
+            color: white;
+        }
+
+        .p1 {
+            text-align: center;
+        }
+
+        .p2 {
+            color: rgb(17, 168, 17);
+            text-align: center;
+
+        }
+
+        .p3 {
+            text-align: center;
+        }
+
+        .p3 p a {
+            color: rgb(17, 168, 17);
+        }
+
+        .container2 {
+            float: right;
+            width: 635px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="container1">
+            <form action="">
+
+                <h2>Welcome to Namix</h2>
+                <h4>Create an account</h4>
+                <div class="input-box">
+                    <input type="text" placeholder="Full name" id="name">
+                    <i class="bx bx-user"></i>
+                    <br><br>
+                    <input type="email" placeholder="Email address" id="email">
+                    <i class="bx bx-envelope"></i>
+                    <br><br>
+                    <input type="password" placeholder="Create password" id="password">
+                    <i class='bx bxs-low-vision'></i>
+                    <br><br>
+                    <input type="password" placeholder="Repeat password" id="password">
+                    <i class='bx bxs-low-vision'></i>
+                    <br><br>
+                </div>
+
+                <div class="gender">
+                    <input type="gender" value="Select Gender" id="Gender">
+                    <input type="date" value="Birth date" id=" date">
+                </div>
+                <br>
+                <div class="account">
+                    <button type="Submit" class="btn">Create an account</button>
+                </div>
+                <br>
+                <div class="p1">
+                    <p1>By signing up,you accept our</p1>
+                </div>
+                <div class="p2">
+                    <p2> Term of Use and Privacy Policy </p2>
+                </div><br>
+                <div>
+                    <hr>
+                </div>
+                <div class="p3">
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+        </div>
+        <div class="container2">
+            <img src="img.jpg" alt="">
+
+        </div>
+        </form>
+    </div>
+</body>
+
+</html>
